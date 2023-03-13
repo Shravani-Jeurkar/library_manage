@@ -1,0 +1,13 @@
+
+Control panel username:	hp_33544703
+Control panel password:	**********
+Control panel URL:	cpanel.hyperphp.com
+MySQL username	hp_33544703
+MySQL password:	**********
+MySQL hostname:	sql102.hyperphp.com
+FTP username:	hp_33544703
+FTP password:	**********
+FTP host name:	ftp.hyperphp.com
+Your Website URL:	http://shravanijeurkar.hyperphp.com
+ 	 
+hp_33544703_library

@@ -1,0 +1,64 @@
+:root{
+    --blueBtn: #624F82;
+    --textCol: #EFF5F5;
+}
+
+.custom-color
+{
+    background-color: var(--blueBtn);
+    border: 1px solid var(--textCol);
+    color: var(--textCol);
+}
+
+.custom-color:hover
+{
+    background-color: var(--textCol);
+    border: 1px solid var(--blueBtn);
+    color: var(--blueBtn);
+}
+
+.bg-image{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    /* background-size: 1535px; */
+    /* height:648px; */
+}
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Slab', serif; */
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.font1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.custom-alert{
+    position: fixed;
+    top: 200px;
+    right: 25px;
+    z-index: 111;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

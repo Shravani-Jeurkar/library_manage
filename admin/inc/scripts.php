@@ -20,6 +20,11 @@
     }
     setActive();
 
+    function remAlert()
+    {
+        document.getElementsByClassName('alert')[0].remove();
+    }
+
     function alertmsg(type, msg, position = 'body')
     {
         let bs_class = (type == 'success') ? 'alert-success' : 'alert-danger';
@@ -46,8 +51,4 @@
         setTimeout(remAlert, 2000)
     }
 
-    function remAlert()
-    {
-        document.getElementsByClassName('alert')[0].remove();
-    }
 </script>

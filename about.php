@@ -10,7 +10,13 @@
 </head>
 <body class="bg-image" style="background-image: url('img/bg/2.webp'); overflow:initial !important;">
 <?php require('inc/header.php');?>
-
+<style>
+    @media screen and (max-width: 350px) {
+    ul{
+        max-width: 250px !important;
+    }
+}
+</style>
 <div class="container-fluid" id="main-content">
         <div class="row">
             <div class="col-lg-10 m-auto p-4 overflow-hidden">

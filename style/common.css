@@ -43,6 +43,16 @@ font-family: 'Roboto Slab', serif; */
     z-index: 111;
 }
 
+@media screen and (max-width: 320px) {
+    .custom-alert{
+        position: fixed;
+        top: 125px;
+        right: 8px;
+        z-index: 111;
+        left: 99px;
+    }
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

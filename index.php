@@ -14,6 +14,19 @@
             margin: 60px auto;
         }
 
+        @media screen and (max-width: 350px) {
+            .welcome {
+                width: 280px;
+                height: 505px;
+                margin: 10px auto;
+            }
+
+            .book{
+                height: 100px;
+                width: 100px;
+            }
+    }
+
         .book{
             animation-duration: 2s;
             animation-delay: 1s;

@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-lg-3 py-lg-1 shadow-sm sticky-top" id="nav-bar">
   <div class="container-fluid">
     <a class="navbar-brand me-5 ms-2" href="index.php">
@@ -13,7 +14,7 @@
           <a class="nav-link " aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="books.php">Books</a>
+          <a class="nav-link " onclick="checkLoginToBook($login)" aria-current="page" href="books.php">Books</a>
         </li>
         <li class="nav-item">
           <a class="nav-link " aria-current="page" href="feedback.php">Feedback</a>

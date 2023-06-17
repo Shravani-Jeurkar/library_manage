@@ -33,7 +33,7 @@
                         
                         <div class="table-responsive-md" style="height: 450px; overflow-y: scroll;">
                             <table class="table table-hover border">
-                                <thead class="sticky-top bg-dark text-light">
+                                <thead class=" bg-dark text-light">
                                     <tr>
                                     <th scope="col" class="text-center">#</th>
                                     <th scope="col" class="text-center">Name</th>

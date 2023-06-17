@@ -114,5 +114,17 @@ function alertmsg(type, msg, position = 'body')
 
 // });
 
+function checkLoginToBook(status)
+    {
+        if(status)
+        {
+            window.location.href='books.php';
+        }
+        else
+        {
+            alertmsg('error', 'Please Login to view the list!');
+        }
+    }
+
     
 </script>

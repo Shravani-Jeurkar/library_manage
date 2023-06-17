@@ -4,9 +4,9 @@
       <img src="../img/logo/Library.svg" alt="" width="60" height="48" class="ms-5 d-block align-text-top">
       <span class="font1 fs-4">Library By Shra</span>
     </a>
-    <!-- <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button> -->
+    </button>
     <div class="collapse navbar-collapse fs-5 ms-5" id="navbarSupportedContent">
 
     <?php
@@ -27,7 +27,7 @@
 data;
 }?>
 
-      <ul class="navbar-nav me-auto mb-lg-0">
+      <ul class="navbar-nav me-auto mb-lg-0 mt-lg-0 mt-3 text-center">
         <li class="nav-item">
           <h4 class="font1 text-light">Welcome to the Admin Side!</h4>
         </li>

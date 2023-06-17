@@ -9,15 +9,46 @@
     <title>Admin Login</title>
 </head>
 <style>
+    *{
+        overflow:visible !important;
+    }
     .login-form{
         width: 500px;
-        margin: 0;
+        /* margin: 0, auto; */
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* visibility: hidden; comment out this line */
 
+    }
+
+    @media screen and (max-width: 530px) {
+        .login-form{
+            width: 300px;
+            /* margin: 0, auto; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* visibility: hidden; comment out this line */
+        }
+
+        .logo{
+            height: 50px;
+            margin-top: 1rem!important;
+        }
+
+        .box{
+            height: 150px;
+            width:150px;
+            margin-left: 0rem!important;
+        }
+
+        .con{
+            margin-top: -20px !important;
+        }
+        
     }
 
     .con{
@@ -46,10 +77,10 @@
         if(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)
         {
             echo<<<data
-            <div class="container con px-5">
-                <div class="row mt-5 mx-5 p-3 m-3 ">
+            <div class="container con px-5 w-500 mx-auto">
+                <div class="row mx-lg-5 p-3 m-3 ">
 
-                    <a href="books.php" class="btn p-2 ms-5 box  rounded shadow" style="height: 250px; width:250px;">
+                    <a href="books.php" class="col-3 btn p-2 ms-5 mb-5 box  rounded shadow" >
                         <div class="container text-center align-items-center">
                             <img src="../img/logo/pencil-square.svg" class="logo mt-5" height="100px">
                             <h4 class="fw-bold mt-3">Edit Book</h4>
@@ -58,23 +89,13 @@
 
                     
 
-                    <a href="feedback.php" class="btn p-2 ms-5 box  rounded shadow" style="height: 250px; width:250px;">        
+                    <a href="feedback.php" class="col-3 btn p-2 ms-5 box  rounded shadow">        
                         <div class="container text-center">
                             <img src="../img/logo/card-text.svg" class="logo mt-5" height="100px">
                             <h4 class="fw-bold mt-3 ">View Feedback</h4>
                         </div>
                     </a>
-                    
-                    
-                    
                 </div>
-
-                </br>
-                </br></br>
-                
-
-
-                
             </div>
 data;
         }
